@@ -50,11 +50,11 @@ export default {
       countries: [
         {
           name: "Nigeria",
-          flagPath: "src/assets/nigeria.png",
+          flagPath: this.$image("nigeria"),
         },
         {
           name: "Ghana",
-          flagPath: "src/assets/ghana.png",
+          flagPath: this.$image("ghana"),
         },
       ],
     };
